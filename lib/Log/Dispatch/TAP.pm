@@ -12,6 +12,8 @@ use Test2::API qw/ context /;
 
 use base qw/ Log::Dispatch::Output /;
 
+use namespace::autoclean;
+
 =head1 SYNOPSIS
 
   use Log::Dispatch;
