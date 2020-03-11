@@ -14,6 +14,8 @@ use base qw/ Log::Dispatch::Output /;
 
 use namespace::autoclean;
 
+our $VERSION = 'v0.1.0';
+
 =head1 SYNOPSIS
 
   use Log::Dispatch;
