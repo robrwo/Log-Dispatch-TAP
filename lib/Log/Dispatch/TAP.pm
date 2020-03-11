@@ -24,7 +24,6 @@ sub new {
         slurpy => 1,
     );
 
-
     my %p = $validator->(@_);
     my $self = bless { method => $p{method} }, $class;
     $self->_basic_init(%p);
