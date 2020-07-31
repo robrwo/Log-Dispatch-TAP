@@ -4,7 +4,7 @@ Log::Dispatch::TAP - Log to TAP output
 
 # VERSION
 
-version v0.1.2
+version v0.1.3
 
 # SYNOPSIS
 
