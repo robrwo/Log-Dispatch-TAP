@@ -23,21 +23,21 @@ my $logger = Log::Dispatch->new(
 
 # DESCRIPTION
 
-This module provides a [Log::Dispatch](https://metacpan.org/pod/Log::Dispatch) output sink for logging to
-[Test::Simple](https://metacpan.org/pod/Test::Simple) diagnostics.
+This module provides a [Log::Dispatch](https://metacpan.org/pod/Log%3A%3ADispatch) output sink for logging to
+[Test::Simple](https://metacpan.org/pod/Test%3A%3ASimple) diagnostics.
 
-It is similar to [Log::Dispatch::TestDiag](https://metacpan.org/pod/Log::Dispatch::TestDiag), except that it allows you
+It is similar to [Log::Dispatch::TestDiag](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3ATestDiag), except that it allows you
 to choose the logging method.
 
 # CONSTRUCTOR
 
 The constructor takes the following parameter in addition to the
-standard parameters for [Log::Dispatch::Output](https://metacpan.org/pod/Log::Dispatch::Output).
+standard parameters for [Log::Dispatch::Output](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3AOutput).
 
 ## method
 
 This is the logging method, which is either `note` or `diag`
-(corresponding to those functions in [Test::More](https://metacpan.org/pod/Test::More)).
+(corresponding to those functions in [Test::More](https://metacpan.org/pod/Test%3A%3AMore)).
 
 # SUPPORT FOR OLDER PERL VERSIONS
 
@@ -51,9 +51,9 @@ backported to those versions.
 
 # SEE ALSO
 
-[Log::Log4perl::Appender::TAP](https://metacpan.org/pod/Log::Log4perl::Appender::TAP)
+[Log::Log4perl::Appender::TAP](https://metacpan.org/pod/Log%3A%3ALog4perl%3A%3AAppender%3A%3ATAP)
 
-[Log::Dispatch::TestDiag](https://metacpan.org/pod/Log::Dispatch::TestDiag)
+[Log::Dispatch::TestDiag](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3ATestDiag)
 
 # SOURCE
 
@@ -73,8 +73,8 @@ feature.
 
 Robert Rothenberg <rrwo@cpan.org>
 
-Some of the code was adapted from [Log::Log4perl::Appender::TAP](https://metacpan.org/pod/Log::Log4perl::Appender::TAP)
-and [Log::Dispatch::TestDiag](https://metacpan.org/pod/Log::Dispatch::TestDiag).
+Some of the code was adapted from [Log::Log4perl::Appender::TAP](https://metacpan.org/pod/Log%3A%3ALog4perl%3A%3AAppender%3A%3ATAP)
+and [Log::Dispatch::TestDiag](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3ATestDiag).
 
 # COPYRIGHT AND LICENSE
 

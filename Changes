@@ -9,6 +9,8 @@ Revision history for {{ $dist->name }}:
 
   - Bump copyright year.
 
+  - Fixed encoding of links in README.
+
   [Other]
   - Clean up test diagnostics.
 
