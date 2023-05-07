@@ -16,6 +16,8 @@ Revision history for {{ $dist->name }}:
 
   - Signed distribution.
 
+  - Updated MANIFEST.SKIP rules.
+
 v0.1.2    2020-07-31 14:26:06+01:00 Europe/London
   [Toolchain]
   - Add core modules in the prerequisites.
