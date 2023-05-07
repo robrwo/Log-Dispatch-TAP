@@ -7,8 +7,7 @@ requires "Test2::API" => "0";
 requires "Types::Standard" => "0";
 requires "base" => "0";
 requires "namespace::autoclean" => "0";
-requires "perl" => "v5.10.0";
-requires "strict" => "0";
+requires "perl" => "v5.14.0";
 requires "warnings" => "0";
 
 on 'test' => sub {
@@ -16,6 +15,7 @@ on 'test' => sub {
   requires "Log::Dispatch" => "0";
   requires "Module::Metadata" => "0";
   requires "Test::More" => "0";
+  requires "strict" => "0";
 };
 
 on 'test' => sub {

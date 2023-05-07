@@ -2,8 +2,7 @@ package Log::Dispatch::TAP;
 
 # ABSTRACT: Log to TAP output
 
-use v5.10.0;
-use strict;
+use v5.14;
 use warnings;
 
 use Params::ValidationCompiler qw/ validation_for /;
@@ -82,6 +81,16 @@ sub log_message {
     $ctx->release;
     return;
 }
+
+=head1 SUPPORT FOR OLDER PERL VERSIONS
+
+Since v0.2.0, the this module requires Perl v5.14 or later.
+
+Future releases may only support Perl versions released in the last ten years.
+
+If you need this module on Perl v5.10, please use one of the v0.1.x
+versions of this module.  Significant bug or security fixes may be
+backported to those versions.
 
 =head1 SEE ALSO
 
