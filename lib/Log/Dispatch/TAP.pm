@@ -9,7 +9,7 @@ use Params::ValidationCompiler qw/ validation_for /;
 use Types::Standard qw/ Enum /;
 use Test2::API qw/ context /;
 
-use base qw/ Log::Dispatch::Output /;
+use parent qw/ Log::Dispatch::Output /;
 
 use namespace::autoclean;
 
