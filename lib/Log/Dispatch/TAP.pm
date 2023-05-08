@@ -33,8 +33,7 @@ our $VERSION = 'v0.2.1';
 This module provides a L<Log::Dispatch> output sink for logging to
 L<Test::Simple> diagnostics.
 
-It is similar to L<Log::Dispatch::TestDiag>, except that it allows you
-to choose the logging method.
+It is similar to L<Log::Dispatch::TestDiag>.
 
 =head1 CONSTRUCTOR
 

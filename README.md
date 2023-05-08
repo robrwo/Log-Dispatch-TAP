@@ -26,8 +26,7 @@ my $logger = Log::Dispatch->new(
 This module provides a [Log::Dispatch](https://metacpan.org/pod/Log%3A%3ADispatch) output sink for logging to
 [Test::Simple](https://metacpan.org/pod/Test%3A%3ASimple) diagnostics.
 
-It is similar to [Log::Dispatch::TestDiag](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3ATestDiag), except that it allows you
-to choose the logging method.
+It is similar to [Log::Dispatch::TestDiag](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3ATestDiag).
 
 # CONSTRUCTOR
 
