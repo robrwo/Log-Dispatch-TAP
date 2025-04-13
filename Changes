@@ -9,6 +9,8 @@ Revision history for {{ $dist->name }}:
 
   - Removed reference to earlier Perl versions.
 
+  - Updated copyright year.
+
 v0.2.1    2023-05-08 10:35:10+01:00 Europe/London
   [Documentation]
   - Removed inaccurate statement about Log::Dispatch::TestDiag.

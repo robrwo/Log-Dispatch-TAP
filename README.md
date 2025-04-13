@@ -78,7 +78,7 @@ and [Log::Dispatch::TestDiag](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3ATe
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2020-2023 by Robert Rothenberg.
+This software is Copyright (c) 2020-2025 by Robert Rothenberg.
 
 This is free software, licensed under:
 
