@@ -44,10 +44,6 @@ Since v0.2.0, the this module requires Perl v5.14 or later.
 
 Future releases may only support Perl versions released in the last ten years.
 
-If you need this module on Perl v5.10, please use one of the v0.1.x
-versions of this module.  Significant bug or security fixes may be
-backported to those versions.
-
 # SEE ALSO
 
 [Log::Log4perl::Appender::TAP](https://metacpan.org/pod/Log%3A%3ALog4perl%3A%3AAppender%3A%3ATAP)
