@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+
+v0.2.2    2025-04-13 17:20:22+01:00 Europe/London
   [Enhancements]
   - Changed to use parent instead of base.
 
