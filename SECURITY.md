@@ -1,18 +1,17 @@
-# Security Policy for the Data-Integer distribution.
+# Security Policy for the Log-Dispatch-TAP distribution.
 
-Security vulnerabilities can be reported via the project GitHub
-repository [Security Advisories](https://github.com/robrwo/Log-Dispatch-TAP/security/advisories).
+Report security issues using https://github.com/robrwo/Log-Dispatch/security/advisories.
 
 This is the Security Policy for Log-Dispatch-TAP.
 
 This text is based on the CPAN Security Group's Guidelines for Adding
-a Security Policy to Perl Distributions (version 1.2.0)
+a Security Policy to Perl Distributions (version 1.3.0)
 https://security.metacpan.org/docs/guides/security-policy-for-authors.html
 
 # How to Report a Security Vulnerability
 
-Security vulnerabilities can be reported via the project GitHub
-repository [Security Advisories](https://github.com/robrwo/Log-Dispatch-TAP/security/advisories).
+Security vulnerabilities can be reported to the current Log-Dispatch-TAP
+maintainers using https://github.com/robrwo/Log-Dispatch/security/advisories.
 
 Please include as many details as possible, including code samples
 or test cases, so that we can reproduce the issue.  Check that your
@@ -40,7 +39,7 @@ on the CPANSec website.
 The maintainer(s) aim to acknowledge your security report as soon as
 possible.  However, this project is maintained by a single person in
 their spare time, and they cannot guarantee a rapid response.  If you
-have not received a response from them within one week, then
+have not received a response from them within 2 weeks, then
 please send a reminder to them and copy the report to CPANSec at
 <cpan-security@security.metacpan.org>.
 
@@ -59,13 +58,16 @@ They may also forward this issue to CPANSec.
 
 Any security vulnerabilities in Log-Dispatch-TAP are covered by this policy.
 
+Security vulnerabilities in versions of any libraries that are
+included in Log-Dispatch-TAP are also covered by this policy.
+
 Security vulnerabilities are considered anything that allows users
 to execute unauthorised code, access unauthorised resources, or to
 have an adverse impact on accessibility or performance of a system.
 
-Security vulnerabilities in upstream software (embedded libraries,
-prerequisite modules or system libraries, or in Perl), are not
-covered by this policy unless they affect Log-Dispatch-TAP, or Log-Dispatch-TAP can
+Security vulnerabilities in upstream software (prerequisite modules
+or system libraries, or in Perl), are not covered by this policy
+unless they affect Log-Dispatch-TAP, or Log-Dispatch-TAP can
 be used to exploit vulnerabilities in them.
 
 Security vulnerabilities in downstream software (any software that
@@ -76,6 +78,11 @@ Log-Dispatch-TAP distribution) are not covered by this policy.
 
 The maintainer(s) will only commit to releasing security fixes for
 the latest version of Log-Dispatch-TAP.
+
+Note that the Log-Dispatch-TAP project only supports major versions of Perl
+released in the past 10 years, even though Log-Dispatch-TAP will run on
+older versions of Perl.  If a security fix requires us to increase
+the minimum version of Perl that is supported, then we may do so.
 
 # Installation and Usage Issues
 
